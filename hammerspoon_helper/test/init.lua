@@ -14,6 +14,7 @@ Test.new = function()
 end
 
 Test.init = function(self)
+  PATH = require('hammerspoon_helper/env/path')
   self.target = {}
 
   for k, v in pairs(Test.path) do
