@@ -55,4 +55,4 @@ reload Hammerspoon...
 ![cat](https://github.com/baronTommy/new-filet-o-fish/blob/master/doc/img/readme/cat.gif) ![bomber](https://github.com/baronTommy/new-filet-o-fish/blob/master/doc/img/readme/bomber.gif)
 
 ## Donation
-- Bitcoin `3QSNRgyemVMKicj5Mb1e6oQqBhPQuDiLPJ`
+- Bitcoin `1EWoJWA4YZEKFT9KQCZUfc2T9Ph2tT9Xev`
