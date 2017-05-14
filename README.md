@@ -20,11 +20,13 @@ I like fish dishes
 
 
 > Windows style
+
+
 </summary>
 
 ![repetition_next_display](https://github.com/baronTommy/new-filet-o-fish/blob/master/doc/img/helper/repetition_next_display.gif)
 
->> ![blue-screen](https://github.com/baronTommy/new-filet-o-fish/blob/master/doc/img/readme/blue-screen.jpg)
+> ![blue-screen](https://github.com/baronTommy/new-filet-o-fish/blob/master/doc/img/readme/blue-screen.jpg)
 </details>
 
 
