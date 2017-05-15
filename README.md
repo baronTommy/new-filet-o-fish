@@ -52,11 +52,16 @@ I like fish dishes
 
 install -> [👑 Hammerspoon 👑](http://www.hammerspoon.org/) <- install
 
+
 ```sh
 cd ~
 mkdir -p ~/.hammerspoon
 git clone https://github.com/baronTommy/new-filet-o-fish.git
 ln -s ~/new-filet-o-fish/hammerspoon_helper ~/.hammerspoon/.
+```
+> Caution overwrite existing ‼️  
+> new-filet-o-fish sample
+```sh
 cp ~/new-filet-o-fish/hammerspoon_helper/sample/* ~/.hammerspoon/.
 ```
 
