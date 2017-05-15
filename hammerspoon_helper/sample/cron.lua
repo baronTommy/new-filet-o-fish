@@ -25,22 +25,24 @@ Cron.isNewFocus = function(self)
   return true
 end
 
-Cron.createRandomColor = function(self)
+Cron.createColor = function(self)
   while true do
-    local borderColor = {}
+    -- local borderColor = {}
+    --
+    -- for k, v in pairs({'red', 'blue', 'green'}) do
+    --   borderColor[v] = math.random(0, 1)
+    -- end
+    --
+    -- coroutine.yield(borderColor)
 
-    for k, v in pairs({'red', 'blue', 'green'}) do
-      borderColor[v] = math.random(0, 1)
-    end
-
-    coroutine.yield(borderColor)
+    coroutine.yield({red = 1})
   end
 end
 
 Cron.windowWatcher = function()
   HS_H.drawing:windowGridLineDelete()
 
-  local bool, color = coroutine.resume(COROUTINE.CREATE_RANDOM_COLOR)
+  local bool, color = coroutine.resume(COROUTINE.CREATE_COLOR)
 
   HS_H.drawing:windowGridLineShow(color)
 
