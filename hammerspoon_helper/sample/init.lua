@@ -15,7 +15,7 @@ require('./hotkey')
 local cron = require('./cron').new()
 cron:init()
 COROUTINE = {}
-COROUTINE.CREATE_RANDOM_COLOR = coroutine.create(cron.createRandomColor)
+COROUTINE.CREATE_COLOR = coroutine.create(cron.createColor)
 
 WINDOW_WATCHER = hs.timer.doEvery(cron.frequency, cron.windowWatcher)
 WINDOW_WATCHER:start()
