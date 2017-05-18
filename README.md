@@ -1,13 +1,25 @@
-# 🍔 new-filet-o-fish 🍟
-I like fish dishes
+# new-filet-o-fish 🍔 🐟
+Improved operability of mac
+
+- Main function
+  - Window operation with keyboard
+  - Focus movement by keyboard
+  - Windows wind window move
+  - Active window vibration
+
+- Configuration
+  - [Shortcut keys can be easily changed](http://www.hammerspoon.org/docs/hs.hotkey.html#bind)
 
 
-**Mac + Fish = new-filet-o-fish**
+> I like fish dishes  
+> Mac + Fish = new-filet-o-fish  
 
 ## use
 
 <details>
-<summary> ✨ Improvement Window Move ✨ </summary>
+<summary>
+ Shift + Option + Cursor ➡ ✨ Improvement Window Move ✨
+</summary>
 
 ![position](https://github.com/baronTommy/new-filet-o-fish/blob/master/doc/img/helper/position.gif)
 
@@ -15,14 +27,17 @@ I like fish dishes
 
 
 <details>
-<summary> 
-✨ Improvement Window Move ✨ 
-
-
-> Windows style
-
-
+<summary>
+Shift + Option + Cursor ➡ ✨ Improvement Window Move ✨
 </summary>
+
+
+> Windows style  
+> Move the window to the next Display with the same key
+
+
+**I have never seen a similar function**
+
 
 ![repetition_next_display](https://github.com/baronTommy/new-filet-o-fish/blob/master/doc/img/helper/repetition_next_display.gif)
 
@@ -31,7 +46,16 @@ I like fish dishes
 
 
 <details>
-<summary> ✨ Improvement Active Window ✨ </summary>
+<summary>
+Shift + Command + Cursor ➡ ✨ Improvement Active Window ✨  
+</summary>
+
+> Move focus of application  
+> Vibration of window
+
+
+**I have never seen a similar function**
+
 
 ![focus_lr](https://github.com/baronTommy/new-filet-o-fish/blob/master/doc/img/helper/focus_lr.gif)
 ![focus_ud](https://github.com/baronTommy/new-filet-o-fish/blob/master/doc/img/helper/focus_ud.gif)
@@ -41,7 +65,12 @@ I like fish dishes
 
 
 <details>
-<summary> ✨ Improvement Display Move ✨ </summary>
+<summary>
+Shift + Control + Cursor ➡ ✨ Improvement Display Move ✨
+</summary>
+
+> Move to next Display  
+
 
 ![next_display](https://github.com/baronTommy/new-filet-o-fish/blob/master/doc/img/helper/next_display.gif)
 
@@ -50,7 +79,7 @@ I like fish dishes
 
 ## install
 
-install -> [👑 Hammerspoon 👑](http://www.hammerspoon.org/) <- install
+install ➡ [👑 Hammerspoon 👑](http://www.hammerspoon.org/)
 
 
 ```sh
@@ -67,7 +96,7 @@ cp ~/new-filet-o-fish/hammerspoon_helper/sample/* ~/.hammerspoon/.
 
 reload Hammerspoon...
 
-**🍔 new-filet-o-fish 🍟**
+**new-filet-o-fish 🍔 🐟**
 
 ## todo
 - [ ] Hammerspoon Spoons
