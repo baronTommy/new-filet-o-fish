@@ -98,6 +98,10 @@ reload Hammerspoon...
 
 **new-filet-o-fish 🍔 🐟**
 
+
+## Explain
+- [hammerspoon_helper](https://github.com/baronTommy/new-filet-o-fish/blob/master/doc/explain.md)
+
 ## todo
 - [ ] Hammerspoon Spoons
 - [ ] T★★★★★★★★★★★ (Coming Soon 🌷)
