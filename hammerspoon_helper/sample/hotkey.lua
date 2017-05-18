@@ -23,5 +23,7 @@ hs.hotkey.bind(modMovePosition, 'M', function()
 
 for k, v in pairs(directionKey) do
   hs.hotkey.bind(modMoveDisplay, v, function()
+    MY_HS_H.window:moveDisplay({direction = directionKey[k]})
     end)
 end
+
