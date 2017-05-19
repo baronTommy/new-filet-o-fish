@@ -1,13 +1,17 @@
-# Improved operability of mac
+# new-filet-o-fish
+
+## Improved operability of mac
 
 
 ## use
+
 
 [new-filet-o-fish wiki](https://github.com/baronTommy/new-filet-o-fish/wiki/%F0%9F%8D%94--new-filet-o-fish-%F0%9F%90%9F) 🍔  🐟  
 
 
 
 ## install
+
 
 install ➡ [Hammerspoon](http://www.hammerspoon.org/)
 
