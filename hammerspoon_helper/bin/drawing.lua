@@ -14,12 +14,26 @@ end
 
 Drawing.windowGridLineShow = function(self, parameter)
   self.call:preSetting(self.windowGridLine, parameter)
-  return self.call:show()
+  return self.call:call(
+    'isValidShow',
+    {'show'},
+    'show',
+    {'isShow'},
+    'isShow',
+    {'isValid','isExec','isShow'}
+  )
 end
 
 Drawing.windowGridLineDelete = function(self, parameter)
   self.call:preSetting(self.windowGridLine, parameter)
-  return self.call:delete()
+  return self.call:call(
+    'isValidDelete',
+    {'delete'},
+    'delete',
+    {'isDelete'},
+    'isDelete',
+    {'isValid','isExec','isDelete'}
+  )
 end
 
 return Drawing
