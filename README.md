@@ -2,9 +2,7 @@
 
 ## Improved operability of mac
 
-[↓todo](https://github.com/baronTommy/new-filet-o-fish/issues/32) 😂   
-
-
+## [↓issue apple like logo ...](https://github.com/baronTommy/new-filet-o-fish/issues/32) 😂  🍎  
 ![new-filet-o-fish](https://github.com/baronTommy/new-filet-o-fish/blob/master/doc/img/readme/4597662%202.png)  
 
 
