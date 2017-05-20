@@ -2,6 +2,8 @@
 
 ## Improved operability of mac
 
+![new-filet-o-fish](https://github.com/baronTommy/new-filet-o-fish/blob/master/doc/img/readme/4597662%202.png) <- [todo](https://github.com/baronTommy/new-filet-o-fish/issues/32) 😂
+
 
 ## use
 
