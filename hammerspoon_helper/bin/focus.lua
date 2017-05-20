@@ -14,7 +14,14 @@ end
 
 Focus.moveWindow = function(self, parameter)
   self.call:preSetting(self.window, parameter)
-  return self.call:moveWindow()
+  return self.call:call(
+    'isValidMoveWindow',
+    {'beforeData', 'afterData'},
+    'move',
+    {'isMoveWindow'},
+    'isMoveWindow',
+    {'isValid','isExec','isMoveWindow'}
+  )
 end
 
 return Focus
