@@ -18,17 +18,38 @@ end
 
 Window.movePosition = function(self, parameter)
   self.call:preSetting(self.position, parameter)
-  return self.call:movePosition()
+  return self.call:call(
+    'isValidMovePosition',
+    {'beforeData', 'afterData'},
+    'move',
+    {'isMovePosition'},
+    'isMovePosition',
+    {'isValid','isExec','isMovePosition'}
+  )
 end
 
 Window.vibrate = function(self, parameter)
   self.call:preSetting(self.vibration, parameter)
-  return self.call:vibrate()
+  return self.call:call(
+    'isValidVibrate',
+    {'vibrate'},
+    'vibrate',
+    {'isVibrate'},
+    'isVibrate',
+    {'isValid','isExec','isVibrate'}
+  )
 end
 
 Window.moveDisplay = function(self, parameter)
   self.call:preSetting(self.display, parameter)
-  return self.call:moveDisplay()
+  return self.call:call(
+    'isValidMoveDisplay',
+    {'beforeData', 'afterData'},
+    'move',
+    {'isMoveDisplay'},
+    'isMoveDisplay',
+    {'isValid','isExec','isMoveDisplay'}
+  )
 end
 
 return Window
