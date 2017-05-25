@@ -46,10 +46,8 @@ Functions.isValid = function(self, parameter, etc)
     end
   end
 
-  for k, v in pairs(etc['requireParameterKeys']) do
-    if parameter[v] == nil then
-      return false
-    end
+  if not opt.tommy.f.hasKeys(etc['requireParameterKeys'], parameter) then
+    return false
   end
 
   for k, v in pairs(etc['whiteListTable']) do
@@ -82,6 +80,22 @@ Functions.isValidShow = function(self, parameter, etc)
     if self.depthOfColor.min > v or self.depthOfColor.max < v then
       return false
     end
+  end
+
+  return true
+end
+
+Functions.isValidApi = function(self, parameter, requireParameterKeys)
+  if type(parameter) ~= 'table' then
+    return false
+  end
+
+  if opt.tommy.f.tableCount(parameter) == 0 then
+    return false
+  end
+
+  if not opt.tommy.f.hasKeys(requireParameterKeys, parameter) then
+    return false
   end
 
   return true
