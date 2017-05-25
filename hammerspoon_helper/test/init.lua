@@ -1,6 +1,7 @@
 local Test = {}
 
 Test.path = {
+  'api/apis',
   'drawing/window_grid_line',
   'window/position',
   'window/display',

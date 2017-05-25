@@ -93,6 +93,10 @@ Base.isMovePosition = function(self)
   return false
 end
 
+Base.isApiCall = function(self)
+  return self:getResults('apiResult')
+end
+
 Base.isVibrate = function(self)
   return self:getResults('vibrate')
 end
@@ -148,6 +152,18 @@ end
 
 Base.isValidDelete = function(self)
   return not (self.drawing == nil)
+end
+
+Base.isValidApi = function(self)
+  if not self.validation.f:isValidApi(self.parameter, self.requireParameterKeys) then
+    return false
+  end
+
+  if not self[self.parameter.call] then
+    return false
+  end
+
+  return self.validation.hsf.hasFocus()
 end
 
 Base.isAfterMovingDisplay = function(self, results)
