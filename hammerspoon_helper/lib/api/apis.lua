@@ -22,11 +22,7 @@ ApplicationProgrammingInterfaces.call = function(self)
 end
 
 ApplicationProgrammingInterfaces.get_display_id = function(self)
-  return self.opt.tommy.hsf.jsonEncode(
-    {
-      display_id = self.opt.tommy.hsf.getDisplayId()
-    }
-  )
+  return self.opt.tommy.hsf.getDisplayId()
 end
 
 return ApplicationProgrammingInterfaces
