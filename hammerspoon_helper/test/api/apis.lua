@@ -4,7 +4,7 @@ Display.testCases = {
   {
     {
       callName = 'call',
-      resultKeyNames = {isValidApi = '?', isExec = '?', isApiCall = '?'},
+      resultKeyNames = {isValid = '?', isExec = '?', apiResult = '?'},
       parameter = {call = 'get_display_id'},
     }
   },
@@ -12,7 +12,7 @@ Display.testCases = {
     {
       callName = 'call',
       testValues = {NOT_FOCUS = true},
-      resultKeyNames = {isValidApi = 'false', isExec = 'nil', isApiCall = 'nil'},
+      resultKeyNames = {isValid = 'false', isExec = 'nil', apiResult = 'nil'},
       parameter = {direction = 'get_display_id'},
     }
   },

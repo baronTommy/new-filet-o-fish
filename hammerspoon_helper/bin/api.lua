@@ -18,9 +18,9 @@ ApplicationProgrammingInterface.call = function(self, parameter)
     'isValidApi',
     {'apiResult'},
     'call',
-    {'isApiCall'},
+    {'apiResult'},
     'isApiCall',
-    {'isValid','isExec','isApiCall'}
+    {'isValid','isExec','apiResult'}
   )
 end
 
