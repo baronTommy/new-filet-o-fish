@@ -22,7 +22,8 @@ Boot.init = function(self)
   self.commands = {
     'Window',
     'Focus',
-    'Drawing'
+    'Drawing',
+    'API',
   }
 
   self.usrCommands = {
