@@ -36,4 +36,14 @@ Functions.isNealy = function(v1, v2, nearlyPX)
   return false
 end
 
+Functions.hasKeys = function(keys, t)
+  for k, v in pairs(keys) do
+    if t[v] == nil then
+      return false
+    end
+  end
+
+  return true
+end
+
 return Functions

@@ -8,6 +8,10 @@ HammerspoonFunctions.getFocusedWindow = function()
   return hs.window.focusedWindow()
 end
 
+HammerspoonFunctions.getDisplayId = function()
+  return HammerspoonFunctions.getFocusedWindow():screen():id()
+end
+
 HammerspoonFunctions.findTargetDisplaySize = function(target)
   return target:screen():frame()
 end
@@ -107,6 +111,10 @@ HammerspoonFunctions.createDraw = function(draw, width, color, fill)
   draw:setStrokeColor(color)
   draw:setFill(fill)
   return draw
+end
+
+HammerspoonFunctions.jsonEncode = function(t)
+  return hs.json.encode(t)
 end
 
 return HammerspoonFunctions
