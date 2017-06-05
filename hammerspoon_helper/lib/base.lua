@@ -166,6 +166,18 @@ Base.isValidApi = function(self)
   return self.validation.hsf.hasFocus()
 end
 
+Base.isValidMoveDesktopTogether = function(self)
+  return self.validation.f:isValidMoveDesktopTogether(self.parameter, self.requireParameterKeys)
+end
+
+Base.isValidMoveWindowToOtherDesktop = function(self)
+  if not self.validation.f:isValidMoveDesktopTogether(self.parameter, self.requireParameterKeys) then
+    return false
+  end
+
+  return self.validation.hsf.hasFocus()
+end
+
 Base.isAfterMovingDisplay = function(self, results)
   if not results.isValid then
     return false
