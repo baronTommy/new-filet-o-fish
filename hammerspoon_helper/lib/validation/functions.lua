@@ -101,4 +101,8 @@ Functions.isValidApi = function(self, parameter, requireParameterKeys)
   return true
 end
 
+Functions.isValidMoveDesktopTogether = function(self, parameter, requireParameterKeys)
+  return Functions.isValidApi(self, parameter, requireParameterKeys)
+end
+
 return Functions

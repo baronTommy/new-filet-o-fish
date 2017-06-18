@@ -28,7 +28,10 @@ Call.call = function(self, isValidFunctionName, execResultsNames, execFunctionNa
     return self.action:getResults(resultsNames)
   end
 
-  self:callIsAction(actionResultsNames, isActionFunctionNmae)
+  if isActionFunctionNmae ~= nil then
+    self:callIsAction(actionResultsNames, isActionFunctionNmae)
+  end
+
   return self:callSetResults(resultsName)
 end
 

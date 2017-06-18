@@ -24,10 +24,11 @@ Boot.init = function(self)
     'Focus',
     'Drawing',
     'API',
+    'Desktop'
   }
 
   self.usrCommands = {
-    'Window',
+    'Window'
   }
 
   PATH = nil
