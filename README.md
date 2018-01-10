@@ -1,3 +1,6 @@
+> ★ <- thank you
+
+
 # new-filet-o-fish
 Improved operability of mac
 
